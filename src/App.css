@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  font-family: fantasy;
+}
+
+.react-calendar {
+  margin: 10px auto;
+  width: 250px !important;
+  height: 300px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+}

@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 100px;
+  }
+  
+  img {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 500px) {
+    img {
+        max-width: 500px;
+        margin-top: 10px;
+    }
+   .content {
+        white-space: break-spaces;
+        margin-left: 10px;
+        margin-right: 15px;
+        text-align: left;
+        padding-top: 310px;
+   }
+  }

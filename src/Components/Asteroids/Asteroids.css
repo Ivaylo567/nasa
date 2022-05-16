@@ -1,0 +1,26 @@
+.flex-grid {
+    display: flex;
+    margin: 0 10px 20px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  .flex-grid .col {
+    flex: 1;
+    background:dodgerblue;
+    padding: 20px;
+    color: white;
+  }
+
+  .asteroids__header {
+    margin: 10px 0;
+}
+  
+@media (max-width: 500px) {
+    .flex-grid {
+      display: block;
+    }
+
+    .asteroids__header {
+        margin-left: 10px;
+    }
+  }
